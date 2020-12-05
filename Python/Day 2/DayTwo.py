@@ -8,10 +8,11 @@ Created on Wed Dec  2 18:21:36 2020
 import numpy as np
 import time
 
-input_data = np.loadtxt('InputTwo.txt', dtype = object)
 
 
 #~~~~~~~~~~~~~~~~~~~~~ Part One ~~~~~~~~~~~~~~~~~~~~#
+
+input_data = np.loadtxt('InputTwo.txt', dtype = object)
 
 
 start_time_one = time.perf_counter()
@@ -34,6 +35,38 @@ print(valid_counter)
 end_time_one = time.perf_counter()
 
 print('Time taken {}s'.format(end_time_one - start_time_one))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
